@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-white text-sm text-neutral-900 antialiased;
+  }
+  input[type="checkbox"] {
+    accent-color: var(--color-blue-600);
+  }
+}
